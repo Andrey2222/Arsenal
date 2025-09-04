@@ -1,0 +1,47 @@
+{
+  "name": "arsenal-minerals-website",
+  "version": "1.0.0",
+  "description": "Professional business website for Arsenal Minerals Limited - Industrial Minerals & Fertilizers Trading Company",
+  "main": "index.html",
+  "scripts": {
+    "start": "start index.html",
+    "dev": "echo 'Open index.html in your browser or use Live Server extension'",
+    "build": "echo 'No build step required - this is a static business website'",
+    "test": "echo 'No tests configured yet'"
+  },
+  "keywords": [
+    "business",
+    "website",
+    "minerals",
+    "fertilizers",
+    "trading",
+    "corporate",
+    "professional",
+    "arsenal-minerals"
+  ],
+  "author": "Arsenal Minerals Limited",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arsenalminerals/arsenal-minerals-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arsenalminerals/arsenal-minerals-website/issues"
+  },
+  "homepage": "https://arsenalminerals.com",
+  "devDependencies": {},
+  "dependencies": {},
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "company": {
+    "name": "Arsenal Minerals Limited",
+    "industry": "Industrial Minerals & Fertilizers Trading",
+    "website": "https://arsenalminerals.com",
+    "email": "sales@arsenalmin.com",
+    "phone": "+44 0 2030007895",
+    "address": "34 South Molton Street, W1K 5RG London, United Kingdom"
+  }
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Test</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .test-section {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 20px;
+        }
+        .test-section:nth-child(odd) {
+            background: #f8f9fa;
+        }
+        .test-box {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            margin: 20px;
+            text-align: center;
+            max-width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div class="test-section">
+        <h1>Animation Test Page</h1>
+        <p>Scroll down to see animations in action!</p>
+    </div>
+    
+    <div class="test-section">
+        <div class="test-box animate-on-scroll" data-animation="fade-in">
+            <h2>Fade In Test</h2>
+            <p>This should fade in when you scroll to it.</p>
+        </div>
+    </div>
+    
+    <div class="test-section">
+        <div class="test-box animate-on-scroll" data-animation="slide-left">
+            <h2>Slide Left Test</h2>
+            <p>This should slide in from the left.</p>
+        </div>
+    </div>
+    
+    <div class="test-section">
+        <div class="test-box animate-on-scroll" data-animation="slide-right">
+            <h2>Slide Right Test</h2>
+            <p>This should slide in from the right.</p>
+        </div>
+    </div>
+    
+    <div class="test-section">
+        <div class="test-box animate-on-scroll" data-animation="scale-in">
+            <h2>Scale In Test</h2>
+            <p>This should scale up when it appears.</p>
+        </div>
+    </div>
+    
+    <div class="test-section">
+        <div class="test-box animate-on-scroll" data-animation="bounce-in">
+            <h2>Bounce In Test</h2>
+            <p>This should bounce in with a scale effect.</p>
+        </div>
+    </div>
+    
+    <script src="animations.js"></script>
+    <script>
+        console.log('🧪 Test page loaded!');
+        console.log('📱 Scroll down to test animations');
+        console.log('🔍 Check console for animation system status');
+    </script>
+</body>
+</html>
