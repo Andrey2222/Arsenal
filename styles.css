@@ -284,13 +284,14 @@ body {
 }
 
 .product-card {
-    background: #ffffff;
+    background: rgba(255, 255, 255, 0.1);
     border-radius: 20px;
     padding: 50px 40px;
     text-align: center;
     box-shadow: 0 20px 40px rgba(0,0,0,0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     animation: fadeInUp 0.8s ease-out both;
+    backdrop-filter: blur(10px);
 }
 
 .product-card:nth-child(1) { animation-delay: 0.3s; }
@@ -309,16 +310,19 @@ body {
 
 .product-card h3 {
     font-size: 1.8rem;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 20px;
-    color: #2c3e50;
+    color: #ffffff;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
 }
 
 .product-card p {
-    color: #718096;
+    color: #ffffff;
     font-size: 1.1rem;
     margin-bottom: 20px;
     line-height: 1.6;
+    font-weight: 500;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.3);
 }
 
 .minerals-list {
@@ -361,7 +365,7 @@ body {
 .mineral-btn {
     background: none;
     border: none;
-    color: #2c3e50;
+    color: #ffffff;
     font-size: 1rem;
     font-weight: 500;
     cursor: pointer;
@@ -370,6 +374,7 @@ body {
     width: 100%;
     position: relative;
     transition: color 0.3s ease;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.3);
 }
 
 .mineral-btn:before {
@@ -383,39 +388,44 @@ body {
 }
 
 .mineral-btn:hover {
-    color: #667eea;
+    color: #e8f4fd;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
 }
 
 .mineral-btn.active {
-    color: #667eea;
+    color: #e8f4fd;
     font-weight: 600;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
 }
 
 
 
 /* Mineral Description */
 .mineral-description {
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(255, 255, 255, 0.15);
     border-radius: 15px;
     padding: 25px;
     margin: 25px 0;
     border-left: 4px solid #667eea;
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    backdrop-filter: blur(10px);
 }
 
 .mineral-description h4 {
-    color: #2c3e50;
+    color: #1a202c;
     font-size: 1.3rem;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 15px;
     text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.1);
 }
 
 .mineral-description p {
-    color: #718096;
+    color: #2d3748;
     font-size: 0.95rem;
     line-height: 1.6;
     margin-bottom: 15px;
+    font-weight: 500;
 }
 
 
